@@ -25,13 +25,10 @@ nav{
     padding-right: 30px;
 }
 
-.image img {
-    height: auto;
+.item-img{
+   height: auto;
     width: 100%;
     border-radius: 5%;
- }
-
-.item-img{
    cursor: pointer;
 }
 
@@ -66,11 +63,10 @@ nav{
  /*Thiết Lập Cho Thành Phần Nội Dung Giới Thiệu*/
  footer .container .noi-dung{
     margin-right: 30px;
+    width:30%;
  }
- footer  .container .noi-dung.about{
-    width:40%;
- }
- footer .container .noi-dung.about h2{
+
+ footer .container .noi-dung h2{
     position: relative;
     color: #fff;
     font-weight: 500;
