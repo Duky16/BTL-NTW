@@ -226,3 +226,33 @@ nav{
     outline: 0;
     padding: 8px 4px;
  }
+
+
+ /*Product */
+.info_product .product_price{
+   color: #ea8025;
+}
+
+/*kthuoc chu*/
+.info_product{
+   width: 100%;
+}
+@media (max-width: 767px)
+.info_product{
+   width: 100%;
+}
+
+.info_product .info_product_title{
+   font-size: 18px;
+   color: #111;
+   margin-bottom: 4px;
+}
+
+.info_product .product_price{
+   font-size: 18px;
+   color: black;
+   display:flex ;
+   align-items: flex-end;
+   line-height: 1;
+   margin-top: 16px;
+}
