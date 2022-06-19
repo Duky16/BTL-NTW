@@ -228,7 +228,7 @@ nav{
  }
 
 
- /*Product */
+ /* Product
 .info_product .product_price{
    color: #ea8025;
 }
@@ -237,10 +237,12 @@ nav{
 .info_product{
    width: 100%;
 }
-@media (max-width: 767px)
-.info_product{
+@media (max-width: 767px){
+   .info_product{
    width: 100%;
 }
+}
+
 
 .info_product .info_product_title{
    font-size: 18px;
@@ -255,4 +257,4 @@ nav{
    align-items: flex-end;
    line-height: 1;
    margin-top: 16px;
-}
+} 

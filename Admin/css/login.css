@@ -1,5 +1,5 @@
 body{
-    background: url('../image/login-bg.jpg');
+    background: url('/Guest/image/login-bg.jpg');
     background-size: cover;
     font-size: 16px;
 }
