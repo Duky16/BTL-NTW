@@ -9,3 +9,7 @@ $(document).ready(function(){
         }
     });
 });
+
+function Redirect(){
+    window.location.href="/Admin/html/Admin.html";
+}

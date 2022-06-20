@@ -1,7 +1,8 @@
 body{
-    background: url('/Guest/image/login-bg.jpg');
+    background: url('/Admin/image/login-bg.jpg');
     background-size: cover;
     font-size: 16px;
+    font-family: 'SF Pro Text', sans-serif;
 }
 
 #wrapper{

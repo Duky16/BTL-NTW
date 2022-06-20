@@ -1,0 +1,81 @@
+*{
+    font-family: 'SF Pro Text', sans-serif;
+}
+
+nav{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar{
+    overflow: hidden;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.navbar-brand{
+    padding-right: 30px;
+}
+
+.active{
+    color: #ea8025 !important;
+    opacity: 90%;
+}
+
+.container{
+    padding: 20px 150px 0;
+}
+
+h2{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.blog-content{
+    padding-top: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.text1{
+    font-weight: bold;
+    line-height: 24px;
+    color: #ea8025;
+    font-size: 16px;
+}
+
+.group img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    width: fit-content;
+}
+
+.text2{
+    padding-top: 10px;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
+
+.text3{
+    font-style: italic;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-button{
+    text-transform: uppercase;
+    color: #fff;
+    background-color: black;
+    font-size: 18px;
+    padding: 9px 30px 7px;
+}
