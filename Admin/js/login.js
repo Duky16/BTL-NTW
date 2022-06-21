@@ -13,3 +13,6 @@ $(document).ready(function(){
 function Redirect(){
     window.location.href="/Admin/html/Admin.html";
 }
+function Redirect2(){
+    window.location.href="/Guest/html/home.html";
+}

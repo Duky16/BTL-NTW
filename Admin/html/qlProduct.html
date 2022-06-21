@@ -14,6 +14,7 @@
 </head>
 
 <body>
+  <!-- nav -->
   <div class="sidebar">
     <div class="logo-details">
       <i> </i>
@@ -38,9 +39,15 @@
           <span class="links_name">Quản lý bài viết</span>
         </a>
       </li>
-
+      <li class="log_out">
+        <a href="/Admin/html/login.html">
+          <i class='bx bx-log-out'></i>
+          <span class="links_name">Log out</span>
+        </a>
+      </li>
     </ul>
   </div>
+  <!-- main contents -->
   <section class="home-section">
     <nav>
       <div class="sidebar-button">
@@ -74,77 +81,457 @@
             </div>
             <div class="line"></div>
           </div>
-        
+
           <!-- Tab content -->
           <div class="tab-content">
             <div class="tab-pane active">
-              <h2>React</h2>
-              
+              <h2>Coffee</h2>
+              <button class="btn">Thêm sản phẩm</button>
+              <div class="container">
+                <div class="container-fluid">
+                  <div class="row d-inline-flex">
+                    <div class="col-12"></div>
+                    <!-- Tittle -->
+                    <h3 class="col-md-10">Cà Phê Tại Nhà</h3>
+                    <!-- Item 1 -->
+                    <div class="col-6 col-md-3 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/coffee1.webp">
+                        <h6 class="item-tittle">Cà Phê Rang Xay Original 1 250gr</h6>
+                        <p>49.000 đ</p>
+                        <p class="old-price">59.000 đ</p>
+                        <div class="button d-flex">
+                          <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="col-6 col-md-3 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/coffee2.webp">
+                        <h6 class="item-tittle">Cà Phê Hòa Tan Đậm Vị Việt Túi 40x16G</h6>
+                        <p>79.000 đ</p>
+                        <p class="old-price">98.000 đ</p>
+                        <div class="button d-flex">
+                          <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="col-6 col-md-3 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/coffee3.webp">
+                        <h6 class="item-tittle">Cà Phê Sữa Đá Hòa Tan Hộp 10 gói</h6>
+                        <p>39.000 đ</p>
+                        <p class="old-price">44.000 đ</p>
+                        <div class="button d-flex">
+                          <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="col-6 col-md-3 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/coffee4.webp">
+                        <h6 class="item-tittle">Cà Phê Sữa Đá Hòa Tan Đậm Vị Hộp 18 gói x 16gr</h6>
+                        <p>39.000 đ</p>
+                        <p class="old-price">48.000 đ</p>
+                        <div class="button d-flex">
+                          <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="col-6 col-md-3 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/coffee5.webp">
+                        <h6 class="item-tittle">Cà Phê Sữa Đá Hòa Tan Túi 25 x 22gr</h6>
+                        <p>79.000 đ</p>
+                        <p class="old-price">98.000 đ</p>
+                        <div class="button d-flex">
+                          <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 6 -->
+                    <div class="col-6 col-md-3 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/coffee6.webp">
+                        <h6 class="item-tittle">Cà Phê Arabica</h6>
+                        <p>98.000 đ</p>
+                        <div class="button d-flex">
+                          <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 7 -->
+                    <div class="col-6 col-md-3 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/coffee7.webp">
+                        <h6 class="item-tittle">Cà phê sữa đá pack 6 lon</h6>
+                        <p>69.000 đ</p>
+                        <p class="old-price">83.000 đ</p>
+                        <div class="button d-flex">
+                          <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 8 -->
+                    <div class="col-6 col-md-3 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/coffee8.webp">
+                        <h6 class="item-tittle">Thùng 24 Lon Cà Phê Sữa Đá</h6>
+                        <p>269.000 đ</p>
+                        <p class="old-price">330.000 đ</p>
+                        <div class="button d-flex">
+                          <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 9 -->
+                    <div class="col-6 col-md-3 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/coffee9.webp">
+                        <h6 class="item-tittle">Cà Phê Rang Xay Original 1 Túi 1KG</h6>
+                        <p>230.000 đ</p>
+                        <div class="button d-flex">
+                          <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="tab-pane">
-              <h2>Angular</h2>
-              <p>Angular is an application design framework and development platform for creating efficient and sophisticated single-page apps.</p>
+              <!-- tittle -->
+              <h2>Trà tại nhà</h2>
+              <button class="btn">Thêm sản phẩm</button>
+              <div class="container">
+                <div class="container-fluid">
+                  <div class= "row d-inline-flex">
+                    <div class="col-12"></div>
+                  <!-- Item 1 -->
+                  <div class ="col-6 col-md-3 image">
+                    <div class="d-flex flex-column text-start height100">
+                      <img class = "item-img" src="/Guest/image/tea1.webp">
+                      <h6 class="item-tittle">Giftset Trà Tearoma</h6>
+                      <p>169.000 đ</p>
+                      <div class="button d-flex ">
+                        <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Item 2 -->
+                  <div class ="col-6 col-md-3 image">
+                    <div class="d-flex flex-column text-start height100">
+                      <img class = "item-img" src="/Guest/image/tea2.webp">
+                      <h6 class="item-tittle">Trà Đào Túi Lọc Tearoma 20 x 2gr</h6>
+                      <p>28.000 đ</p>
+                      <div class="button d-flex ">
+                        <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Item 3 -->
+                  <div class ="col-6 col-md-3 image">
+                    <div class="d-flex flex-column text-start height100">
+                      <img class = "item-img" src="/Guest/image/tea3.webp">
+                      <h6 class="item-tittle">Trà Lài Túi Lọc Tearoma 20 x 2gr</h6>
+                      <p>28.000 đ</p>
+                      <div class="button d-flex ">
+                        <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Item 4 -->
+                  <div class ="col-6 col-md-3 image">
+                    <div class="d-flex flex-column text-start height100">
+                      <img class = "item-img" src="/Guest/image/tea4.webp">
+                      <h6 class="item-tittle">Trà Oolong Túi Lọc Tearoma 20 x 2gr</h6>
+                      <p>28.000 đ</p>
+                      <div class="button d-flex ">
+                        <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Item 5 -->
+                  <div class ="col-6 col-md-3 image">
+                    <div class="d-flex flex-column text-start height100">
+                      <img class = "item-img" src="/Guest/image/tea5.webp">
+                      <h6 class="item-tittle">Trà Sen Túi Lọc Tearoma 20 x 2gr</h6>
+                      <p>28.000 đ</p>
+                      <div class="button d-flex ">
+                        <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Item 6 -->
+                  <div class ="col-6 col-md-3 image">
+                    <div class="d-flex flex-column text-start height100">
+                      <img class = "item-img" src="/Guest/image/tea6.webp">
+                      <h6 class="item-tittle">Trà Xanh Lá Tearoma 100gr</h6>
+                      <p>74.000 đ</p>
+                      <div class="button d-flex ">
+                        <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Item 7 -->
+                  <div class ="col-6 col-md-3 image">
+                    <div class="d-flex flex-column text-start height100">
+                      <img class = "item-img" src="/Guest/image/tea7.webp">
+                      <h6 class="item-tittle">Trà Sen Lá Tearoma 100gr</h6>
+                      <p>79.000 đ</p>
+                      <div class="button d-flex ">
+                        <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Item 8 -->
+                  <div class ="col-6 col-md-3 image">
+                    <div class="d-flex flex-column text-start height100">
+                      <img class = "item-img" src="/Guest/image/tea8.webp">
+                      <h6 class="item-tittle">Thùng 24 Lon Cà Phê Sữa Đá</h6>
+                      <p>98.000 đ</p>
+                      <div class="button d-flex ">
+                        <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Item 9 -->
+                  <div class ="col-6 col-md-3 image">
+                    <div class="d-flex flex-column text-start height100">
+                      <img class = "item-img" src="/Guest/image/tea9.webp">
+                      <h6 class="item-tittle">Trà Lài Lá Tearoma 100gr</h6>
+                      <p>79.000 đ</p>
+                      <div class="button d-flex ">
+                        <button class="btn">Sửa</button>
+                        <button class="btn"> Xóa</button>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="tab-pane">
-              <h2>Ember</h2>
-              <p>Ember.js is a productive, battle-tested JavaScript framework for building modern web applications. It includes everything you need to build rich UIs that work on any device.</p>
+              <!-- Tittle -->
+              <h2>Bánh và snack</h2>
+             <button class="btn">Thêm sản phẩm</button>
+             <div class="container">
+              <div class="container-fluid">
+                <div class= "row d-inline-flex">
+                  <div class="col-12"></div>
+                
+               
+                <!-- Item 1 -->
+                <div class ="col-6 col-md-3 image">
+                  <div class="d-flex flex-column text-start height100">
+                    <img class = "item-img" src="/Guest/image/snack1.webp">
+                    <h6 class="item-tittle">Bánh Mì Que Pate</h6>
+                    <p>12.000 đ</p>
+                    <div class="button d-flex ">
+                      <button class="btn">Sửa</button>
+                      <button class="btn"> Xóa</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 2 -->
+                <div class ="col-6 col-md-3 image">
+                  <div class="d-flex flex-column text-start height100">
+                    <img class = "item-img" src="/Guest/image/snack2.webp">
+                    <h6 class="item-tittle">Bánh Mì Que Pate Cay</h6>
+                    <p>12.000 đ</p>
+                    <div class="button d-flex ">
+                      <button class="btn">Sửa</button>
+                      <button class="btn"> Xóa</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 3 -->
+                <div class ="col-6 col-md-3 image">
+                  <div class="d-flex flex-column text-start height100">
+                    <img class = "item-img" src="/Guest/image/snack3.webp">
+                    <h6 class="item-tittle">Bánh Mì VN Thịt Nguội</h6>
+                    <p>29.000 đ</p>
+                    <div class="button d-flex ">
+                      <button class="btn">Sửa</button>
+                      <button class="btn"> Xóa</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 4 -->
+                <div class ="col-6 col-md-3 image">
+                  <div class="d-flex flex-column text-start height100">
+                    <img class = "item-img" src="/Guest/image/snack4.webp">
+                    <h6 class="item-tittle">Chà Bông Phô Mai</h6>
+                    <p>32.000 đ</p>
+                    <div class="button d-flex ">
+                      <button class="btn">Sửa</button>
+                      <button class="btn"> Xóa</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 5 -->
+                <div class ="col-6 col-md-3 image">
+                  <div class="d-flex flex-column text-start height100">
+                    <img class = "item-img" src="/Guest/image/snack5.webp">
+                    <h6 class="item-tittle">Mochi Kem Chocolate</h6>
+                    <p>19.000 đ</p>
+                    <div class="button d-flex ">
+                      <button class="btn">Sửa</button>
+                      <button class="btn"> Xóa</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 6 -->
+                <div class ="col-6 col-md-3 image">
+                  <div class="d-flex flex-column text-start height100">
+                    <img class = "item-img" src="/Guest/image/snack6.webp">
+                    <h6 class="item-tittle">Mochi Kem Matcha</h6>
+                    <p>19.000 đ</p>
+                    <div class="button d-flex ">
+                      <button class="btn">Sửa</button>
+                      <button class="btn"> Xóa</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 7 -->
+                <div class ="col-6 col-md-3 image">
+                  <div class="d-flex flex-column text-start height100">
+                    <img class = "item-img" src="/Guest/image/snack7.webp">
+                    <h6 class="item-tittle">Mochi Kem Việt Quất</h6>
+                    <p>19.000 đ</p>
+                    <div class="button d-flex ">
+                      <button class="btn">Sửa</button>
+                      <button class="btn"> Xóa</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 8 -->
+                <div class ="col-6 col-md-3 image">
+                  <div class="d-flex flex-column text-start height100">
+                    <img class = "item-img" src="/Guest/image/snack8.webp">
+                    <h6 class="item-tittle">Gà Xé Lá Chanh</h6>
+                    <p>25.000 đ</p>
+                    <div class="button d-flex ">
+                      <button class="btn">Sửa</button>
+                      <button class="btn"> Xóa</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item 9 -->
+                <div class ="col-6 col-md-3 image">
+                  <div class="d-flex flex-column text-start height100">
+                    <img class = "item-img" src="/Guest/image/snack9.webp">
+                    <h6 class="item-tittle">Mít Sấy</h6>
+                    <p>20.000 đ</p>
+                    <div class="button d-flex ">
+                      <button class="btn">Sửa</button>
+                      <button class="btn"> Xóa</button>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
             </div>
             <div class="tab-pane">
               <h2>Hi-tea </h2>
+              <button class="btn">Thêm sản phẩm</button>
               <div class="container">
                 <div class="container-fluid">
-                    <div class="row d-inline-flex">
-                        <div class="col-12"></div>
-                        <!-- Item 1 -->
-                        <div class="col-9 col-md-4 image">
-                            <div class="d-flex flex-column text-start height100">
-                                <img class="item-img" src="/Guest/image/hiteadau.webp">
-                                <h6 class="item-tittle">Hi-Tea Dâu Tây Mận Muối Aloe Vera</h6>
-                                <p>49.000 đ</p>
-                            </div>
+                  <div class="row d-inline-flex">
+                    <div class="col-12"></div>
+                    <!-- Item 1 -->
+                    <div class="col-9 col-md-4 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/hiteadau.webp">
+                        <h6 class="item-tittle">Hi-Tea Dâu Tây Mận Muối Aloe Vera</h6>
+                        <p>49.000 đ</p>
+                        <div class="button d-flex ">
+                          <button class="btn">Sửa</button>
+                          <button class="btn"> Xóa</button>
                         </div>
-                        <!-- Item 2 -->
-                        <div class="col-9 col-md-4 image">
-                            <div class="d-flex flex-column text-start height100">
-                                <img class="item-img" src="/Guest/image/hiteadau.webp">
-                                <h6 class="item-tittle">Hi-Tea Xoài Aloe Vera</h6>
-                                <p>45.000 đ</p>
-                            </div>
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="col-9 col-md-4 image">
-                            <div class="d-flex flex-column text-start height100">
-                                <img class="item-img" src="/Guest/image/hiteadao.webp">
-                                <h6 class="item-tittle">Hi-Tea Đào</h6>
-                                <p>45.000 đ</p>
-                            </div>
-                        </div>
-                        <!-- Item 1 -->
-                        <div class="col-9 col-md-4 image">
-                            <div class="d-flex flex-column text-start height100">
-                                <img class="item-img" src="/Guest/image/hiteadatuyet1.webp">
-                                <h6 class="item-tittle">Hi-Tea Đá Tuyết Mận Muối Aloe Vera</h6>
-                                <p>58.000 đ</p>
-                            </div>
-                        </div>
-        
-                        <!-- Item 2 -->
-                        <div class="col-9 col-md-4 image">
-                            <div class="d-flex flex-column text-start height100">
-                                <img class="item-img" src="/Guest/image/hiteadatuyet2.webp">
-                                <h6 class="item-tittle">Hi-Tea Đá Tuyết Xoài Đào</h6>
-                                <p>58.000 đ</p>
-                            </div>
-                        </div>
+
+                      </div>
                     </div>
+                    <!-- Item 2 -->
+                    <div class="col-9 col-md-4 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/hiteadau.webp">
+                        <h6 class="item-tittle">Hi-Tea Xoài Aloe Vera</h6>
+                        <p>45.000 đ</p>
+                        <div class="button d-flex">
+                          <button class="btn">Sửa</button>
+                          <button class="btn"> Xóa</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="col-9 col-md-4 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/hiteadao.webp">
+                        <h6 class="item-tittle">Hi-Tea Đào</h6>
+                        <p>45.000 đ</p>
+                        <div class="button d-flex">
+                          <button class="btn">Sửa</button>
+                          <button class="btn"> Xóa</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item 1 -->
+                    <div class="col-9 col-md-4 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/hiteadatuyet1.webp">
+                        <h6 class="item-tittle">Hi-Tea Đá Tuyết Mận Muối Aloe Vera</h6>
+                        <p>58.000 đ</p>
+                        <div class="button d-flex">
+                          <button class="btn">Sửa</button>
+                          <button class="btn"> Xóa</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="col-9 col-md-4 image">
+                      <div class="d-flex flex-column text-start height100">
+                        <img class="item-img" src="/Guest/image/hiteadatuyet2.webp">
+                        <h6 class="item-tittle">Hi-Tea Đá Tuyết Xoài Đào</h6>
+                        <p>58.000 đ</p>
+                        <div class="button d-flex">
+                          <button class="btn">Sửa</button>
+                          <button class="btn"> Xóa</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
+
   </section>
 
 
