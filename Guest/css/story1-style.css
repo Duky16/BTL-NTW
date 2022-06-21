@@ -34,6 +34,10 @@ h2{
     font-weight: 600;
 }
 
+.content{
+    padding: 5% 10%;
+}
+
 .blog-content{
     padding-top: 20px;
     font-size: 14px;
