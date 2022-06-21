@@ -105,3 +105,28 @@ nav{
     background-color: #fff7e6;
     padding-top: 30px;
 }
+
+.footer{
+    background: #000000D9;
+    padding: 34px 50px 54px;
+    font-size: 14px;
+    color: #fff;
+ 
+ }
+ 
+ .footer h4{
+    text-align: left;
+ }
+ 
+ .footer ul{
+    list-style-type: none !important;
+ }
+ 
+ .footer ul li{
+    padding: 10px 0;
+ }
+ 
+ .footer ul li a{
+    text-decoration: none;
+    color: #fff;
+ }
