@@ -19,12 +19,6 @@ nav{
 .navbar-brand{
     padding-right: 30px;
 }
-
-.active{
-    color: #ea8025 !important;
-    opacity: 90%;
-}
-
 .container{
     padding: 20px 150px 0;
 }
