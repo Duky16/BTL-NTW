@@ -11,167 +11,172 @@
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="/Guest/css/style-home.css">
 </head>
 
 <body>
-
-   <div class="app">
-      <!-- nav -->
-      <header style="z-index: 1000; position: relative;">
-         <div>
-            <nav class="navbar navbar-expand-lg bg-light">
-               <div class="col-md-1"></div>
-               <a href="/Guest/html/home.html" class="nav-branding fw-bolder">The Coffe house</a>
- 
-               <ul class="nav-menu">
- 
-                  <li class=" nav-item">
-                     <a href="/Guest/html/coffee.html" class="nav-link fw-bold px-3">Cà phê </a>
-                  </li>
-                  <li class=" nav-item">
-                     <a href="/Guest/html/tea.html" class="nav-link fw-bold px-3"> Trà</a>
-                  </li>
-                  <li class=" nav-item">
-                     <a href="/Guest/html/snack.html" class="nav-link fw-bold px-3"> Đồ ăn vặt</a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="/Guest/html/story.html" class="nav-link fw-bold px-3 active">Chuyện nhà</a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="/Guest/html/Hi-tea.html" class="nav-link fw-bold px-3">Hi-tea Healthy</a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="/Admin/html/login.html" class="nav-link fw-bold px-3">Đăng nhập</a>
-                  </li>
-               </ul>
-               <div class="hamburger">
-                  <span class="bar"> </span>
-                  <span class="bar"> </span>
-                  <span class="bar"> </span>
-               </div>
-            </nav>
-         </div>
- 
-      </header>
-      <!-- sidle -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-               aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-               aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-               aria-label="Slide 3"></button>
-         </div>
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <img src="/Guest/image/slide-home1.png" class="d-block w-100" alt="Ảnh slide 1">
-            </div>
-            <div class="carousel-item">
-               <img src="/Guest/image/slide-home2.png" class="d-block w-100" alt="Ảnh slide 2">
-            </div>
-            <div class="carousel-item">
-               <img src="/Guest/image/slide-home3.png" class="d-block w-100" alt="Ảnh slide 3">
-            </div>
-         </div>
-         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-         </button>
-         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-         </button>
+   <!-- Navbar -->
+  <div class="navbar">
+   <div class="navbar_link">
+     <a class="navbar_brand fw-bolder" href="/Guest/html/home.html">THE COFFEE HOUSE</a>
+   </div>
+    <div class="navbar_link navbar_link-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  <nav class="navbar_items">
+     <div class="navbar_link">
+       <a class="nav-link" href="/Guest/html/coffee.html">Cà phê</a>
+     </div>
+     <div class="navbar_link">
+       <a class="nav-link" href="/Guest/html/tea.html">Trà</a>
+     </div>
+     <div class="navbar_link">
+       <a class="nav-link" href="/Guest/html/snack.html">Đồ ăn vặt</a>
+     </div>
+     <div class="navbar_link">
+       <a class="nav-link" href="/Guest/html/Hi-tea.html">Hi-Tea</a>
+     </div>
+     <div class="navbar_link">
+       <a class="nav-link" href="/Guest/html/story.html">Chuyện nhà</a>
+     </div>
+   </nav>
+   <nav class="navbar_items navbar_items--right">
+     <div class="navbar_link">
+       <a class="nav-link" href="/Admin/html/login.html">Đăng nhập</a>
+     </div>
+   </nav>
+  </div>
+   <!-- Slide -->
+   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <!-- item -->
-      <div class="contaniner ">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img src="/Guest/image/slide-home1.png" class="d-block w-100" alt="Ảnh slide 1">
+         </div>
+         <div class="carousel-item">
+            <img src="/Guest/image/slide-home2.png" class="d-block w-100" alt="Ảnh slide 2">
+         </div>
+         <div class="carousel-item">
+            <img src="/Guest/image/slide-home3.png" class="d-block w-100" alt="Ảnh slide 3">
+         </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+      </button>
+   </div>
+      <div class="container">
          <div class="container-fluid">
-            <h1></h1>
             <div class="row d-inline-flex">
                <!-- Gallery Item 1 -->
-               <div class="col-12 col-md-6 image ">
-                  <div class="d-flex flex-column text-start  height100">
-                     <div>
-                        <img src="/Guest/image/anh1.webp" />
-                     </div>
-                     <h2></h2>
-                     <p></p>
+               <div class="col-12 col-md-6 image">
+                  <div class="d-flex flex-column text-start height100 py-5">
+                     <img src="/Guest/image/anh1.webp" />
                   </div>
                </div>
                <!-- Gallery Item 2 -->
-               <div class="col-12 col-sm-6 col-md-3 image">
+               <div class="col-6 col-md-3 image py-5">
                   <div class="d-flex flex-column text-start height100">
                      <div>
                         <img src="/Guest/image/anh2.webp" />
-                     </div><a href="/Guest/html/products.html/hiteadao.html">Hi-tea Đào</a>
-                     
-                     <p>45 000đ</p>
+                     </div>
+                     <h6>Hi-tea Đào</h6>
+                     <p>45.000 đ</p>
                   </div>
                </div>
                <!-- Gallery Item 3 -->
-               <div class="col-12 col-sm-6 col-md-3 image">
+               <div class="col-6 col-md-3 image py-5">
                   <div class="d-flex flex-column text-start height100">
                      <div>
                         <img src="/Guest/image/anh3.webp" />
                      </div>
+<<<<<<< HEAD
                      <a href="/Guest/html/products.html/hiteaxoai.html">Hi-Tea Xoài Aloe Vera</a>
                   
                      <p>45 000đ</p>
+=======
+                     <h6>Hi-tea Yuzu</h6>
+                     <p>45.000 đ</p>
+>>>>>>> 5550f04e572db501506039f136ef7427b0199220
                   </div>
                </div>
                <!-- Gallery Item 4 -->
-               <div class="col-12 col-sm-6 col-md-3  image">
+               <div class="col-6 col-md-3 image py-3">
                   <div class="d-flex flex-column text-start height100">
                      <div>
-                        <img src="/Guest/image/hiteadau.webp" />
+                        <img src="/Guest/image/anh4.webp" />
                      </div>
+<<<<<<< HEAD
                      <a href="/Guest/html/products.html/hiteadtman.html">Hi-Tea Dâu Tây Mận Muối Aloe Vera</a>
                    
                      <p>49 000đ</p>
+=======
+                     <h6>Hi-tea Đá Tuyết Yuzu Vải</h6>
+                     <p>58.000 đ</p>
+>>>>>>> 5550f04e572db501506039f136ef7427b0199220
                   </div>
                </div>
                <!-- Gallery Item 5 -->
-               <div class="col-12 col-sm-6 col-md-3 image">
+               <div class="col-6 col-md-3 image py-3">
                   <div class="d-flex flex-column text-start height100">
                      <div>
-                        <img src="/Guest/image/anh5.webp" />
+                        <img src="/Guest/image/anh5.jpg"/>
                      </div>
+<<<<<<< HEAD
                      <a href="/Guest/html/products.html/coffeebacxiu.html">Bạc Sỉu Đá</a>
 
                      <p>29 000đ</p>
+=======
+                     <h6>Hi-Tea Đá Tuyết Mận Muối Aloe Vera</h6>
+                     <p>40.600 đ</p>
+>>>>>>> 5550f04e572db501506039f136ef7427b0199220
                   </div>
                </div>
                <!-- Gallery Item 6 -->
-               <div class="col-12 col-sm-6 col-md-3 image">
+               <div class="col-6 col-md-3 image py-3">
                   <div class="d-flex flex-column text-start height100">
                      <div>
                         <img src="/Guest/image/anh6.webp" />
                      </div>
+<<<<<<< HEAD
                      <a href="/Guest/html/products.html/coffeedenda.html">Cà Phê Đen Đá</a>
                   
                      <p>29 000đ</p>
+=======
+                     <h6>Bạc Xỉu Đá</h6>
+                     <p>29.000 đ</p>
+>>>>>>> 5550f04e572db501506039f136ef7427b0199220
                   </div>
                </div>
                <!-- Gallery Item 7 -->
-               <div class="col-12 col-sm-6 col-md-3 image">
+               <div class="col-6 col-md-3 image py-3">
                   <div class="d-flex flex-column text-start height100">
                      <div>
-                        <img src="/Guest/image/hiteadatuyet2.webp" />
+                        <img src="/Guest/image/anh7.webp" />
                      </div>
+<<<<<<< HEAD
                      <a href="/Guest/html/products.html/hiteadtxoaidao.html">Hi-Tea Đá Tuyết Xoài Đào</a>
                     
                      <p>58 000đ</p>
+=======
+                     <h6>Cà Phê Đen Đá</h6>
+                     <p>29.000 đ</p>
+>>>>>>> 5550f04e572db501506039f136ef7427b0199220
                   </div>
                </div>
             </div>
          </div>
       </div>
+<<<<<<< HEAD
       <div class="container row bg-warning bg-gradient bg-success p-2 text-dark bg-opacity-25">
 
          <div class=" col-2"></div>
@@ -256,190 +261,101 @@
                      </div>
                   </div>
                </div>
+=======
+>>>>>>> 5550f04e572db501506039f136ef7427b0199220
 
+      <div class="container bg-warning bg-gradient bg-success p-2 text-dark bg-opacity-25">
+         <div class="row d-inline-flex">
+            <div class="col-2"></div>
+            <div class="col-8">
+               <img src="/Guest/image/nen.svg" alt="">
             </div>
-         </div>
-      </div>
-
-      <div class="container-fluid">
-         <h3 class="blog_home_title text-center">
-            <img src="https://file.hstatic.net/1000075078/file/coffee-2_2_92db24958ff14ac4b4249b3256f7a415.png">
-            Chuyện Nhà
-         </h3>
-         <div class="row">
-            <div class="col-md-12">
-               <h5>Coffeeholic</h5>
-               <div class="row">
-                  <div class="col-md-4">
-                     <div class="card">
-                        <a href="/Guest/html/Story/story3.html">
-                           <img class="card-img-top" alt="Bootstrap Thumbnail First"
-                              src="/Guest/image/story-content3.png" />
-                        </a>
-                        <div class="card-block">
-                           <a href="/Guest/html/Story/story3.html" class="text-link fw-bolder ">CÁCH NHẬN BIẾT HƯƠNG VỊ
-                              CÀ PHÊ ROBUSTA NGUYÊN CHẤT DỄ DÀNG NHẤT</a>
-                           <p class="card-text ">
-                              Cùng Arabica, Robusta cũng là loại cà phê nổi tiếng được sử dụng phổ biến...
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="card">
-                        <a href="/Guest/html/Story/story4.html">
-                           <img class="card-img-top" alt="Bootstrap Thumbnail First"
-                              src="/Guest/image/story-content4.png" />
-                        </a>
-                        <div class="card-block">
-                           <a href="/Guest/html/Story/story4.html" class="text-link fw-bolder ">BẬT MÍ NHIỆT ĐỘ LÝ TƯỞNG ĐỂ PHA CÀ PHÊ NGON, ĐẬM ĐÀ HƯƠNG VỊ</a>
-                           <p class="card-text ">
-                              Nhiệt độ nước là một yếu tố quan trọng để có thể tạo nên những...
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="card">
-                        <a href="/Guest/html/Story/story5.html">
-                           <img class="card-img-top" alt="Bootstrap Thumbnail First"
-                              src="/Guest/image/story-content5.png" />
-                        </a>
-                        <div class="card-block">
-                           <a href="/Guest/html/Story/story5.html" class="text-link fw-bolder ">CÁCH PHA CÀ PHÊ PHIN THƠM NGON TRÒN VỊ</a>
-                           <p class="card-text ">
-                              Có nhiều cách để pha một ly cà phê ngon, nhưng đối với nhiều người...
-                           </p>
-                        </div>
-                     </div>
+            <div class="col-2"></div>
+            <div class="col-2"></div>
+            <div class="col-8">
+               <p class="text-center">Được chiết xuất từ 100% hoa Hibiscus tự nhiên, không chứa caffeine cùng topping trái cây đa dạng, Hi-Tea Healthy là lựa chọn cho những ai muốn chăm sức khoẻ và yêu chiều bản thân. Nay có thêm 4 vị mới cực hấp dẫn kèm topping Aloe Vera ngon ngất ngây, đẹp đắm say.</p>
+               <h3 class="text-center home_brands_description_highlight">Thử đi chờ chi!</h3>
+            </div>
+            <div class=" col-2"></div>
+            <!-- Gallery Item 1 -->
+            <div class="col-12 image_section ">
+               <div class="d-flex flex-column text-center  height100">
+                  <div>
+                     <img alt="Hi-Tea Dâu Tây Mận Muối Aloe Vera" src="/Guest/image/section1.webp" />
+                     <h3>Hi-Tea Dâu Tây Mận Muối Aloe Vera</h3>
+                     <p>Sự kết hợp độc đáo giữa 3 sắc thái hương vị khác nhau: trà hoa Hibiscus chua thanh, Mận muối mặn và Dâu tây tươi Đà Lạt cô đặc ngọt dịu. Ngoài ra, topping Aloe Vera tươi mát, ngon ngất ngây, đẹp đắm say, hứa hẹn sẽ khuấy đảo hè này.</p>
+                     <button type="button" class="animate_btn" href="">Thử Ngay</button>
                   </div>
                </div>
-               <h5>Teaholic</h5>
-               <div class="row">
-                  <div class="col-md-4">
-                     <div class="card">
-                        <a href="/Guest/html/Story/story6.html">
-                           <img class="card-img-top" alt="Bootstrap Thumbnail First"
-                              src="/Guest/image/story-content6.png" />
-                        </a>
-                        <div class="card-block">
-                           <a href="/Guest/html/Story/story6.html" class="text-link fw-bolder ">10 LỢI ÍCH KHÔNG NGỜ CỦA TRÀ HOA HIBISCUS</a>
-                           <p class="card-text ">
-                              Với rất nhiều lợi ích vượt trội, trà hoa Hibiscus được nhiều chị em ưu...
-                           </p>
-                        </div>
-                     </div>
+            </div>
+            <!-- Gallery Item 2 -->
+            <div class="col-12  col-md-4 image ">
+               <div class="d-flex flex-column text-center  height100">
+                  <div>
+                     <img alt="Hi-Tea Xoài Aloe Vera" src="/Guest/image/section2.webp" />
                   </div>
-                  <div class="col-md-4">
-                     <div class="card">
-                        <a href="/Guest/html/Story/story8.html">
-                           <img class="card-img-top" alt="Bootstrap Thumbnail First"
-                              src="/Guest/image/story-content8.png" />
-                        </a>
-                        <div class="card-block">
-                           <a href="/Guest/html/Story/story8.html" class="text-link fw-bolder ">UỐNG TRÀ HIBISCUS CÓ BỊ MẤT NGỦ HAY KHÔNG?</a>
-                           <p class="card-text ">
-                              Trà hoa Hibiscus luôn nằm trong top những loại trà healthy được nhiều người ưa...
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="card">
-                        <a href="/Guest/html/Story/story7.html">
-                           <img class="card-img-top" alt="Bootstrap Thumbnail First"
-                              src="/Guest/image/story-content7.png" />
-                        </a>
-                        <div class="card-block">
-                           <a href="/Guest/html/Story/story7.html" class="text-link fw-bolder ">BẠN CÓ ĐANG NHẦM LẪN GIỮA ATISO ĐỎ VÀ ATISO XANH?</a>
-                           <p class="card-text ">
-                              Trà Atiso vốn là thức uống phổ biến tại Việt Nam và được biết đến...
-                           </p>
-                        </div>
-                     </div>
-                  </div>
+                  <h3>Hi-Tea Xoài Aloe Vera</h3>
+                  <p>Vị ngọt thanh, thơm phức từ xoài chín mọng kết hợp cùng vị chua đặc trưng của trà hoa Hibiscus tự nhiên, sẽ khiến bạn khó lòng quên được thức uống “chân ái” này. Đặc biệt, topping Aloe Vera tự nhiên không chỉ nhâm nhi vui miệng mà còn giúp bạn “nâng tầm nhan sắc”.</p>
+                  <button type="button" class="animate_btn" href="">Thử Ngay</button>
                </div>
-               <h5>Blog</h5>
-               <div class="row">
-                  <div class="col-md-4">
-                     <div class="card">
-                        <a href="/Guest/html/Story/story9.html">
-                           <img class="card-img-top" alt="Bootstrap Thumbnail First"
-                              src="/Guest/image/story-content9.png" />
-                        </a>
-                        <div class="card-block">
-                           <a href="/Guest/html/Story/story9.html" class="text-link fw-bolder ">LỄ TÌNH NHÂN, CÙNG CRUSH ĐI ĐÂU?</a>
-                           <p class="card-text ">
-                              Tadaaaa, hết Tết thì Valentine đầy yêu thương lại đang đến rồi nè. Lễ tình...
-                           </p>
-                        </div>
-                     </div>
+            </div>
+            <!-- Gallery Item 3 -->
+            <div class="col-12 col-md-4 image ">
+               <div class="d-flex flex-column text-center  height100">
+                  <div>
+                     <img alt="Hi-Tea Đá Tuyết Yuzu Aloe Vera" src="/Guest/image/section3.webp" />
                   </div>
-                  <div class="col-md-4">
-                     <div class="card">
-                        <a href="/Guest/html/Story/story10.html">
-                           <img class="card-img-top" alt="Bootstrap Thumbnail First"
-                              src="/Guest/image/story-content10.png" />
-                        </a>
-                        <div class="card-block">
-                           <a href="/Guest/html/Story/story10.html" class="text-link fw-bolder ">THE COFFEE HOUSE - QUÁN CÀ PHÊ LÝ TƯỞNG ĐỂ HỘI HỌP BẠN BÈ MÙA TẾT NÀY</a>
-                           <p class="card-text ">
-                              Những ngày cuối năm, đầu năm mới, bạn lên kế hoạch để gặp gỡ những...
-                           </p>
-                        </div>
-                     </div>
+                  <h3>Hi-Tea Đá Tuyết Yuzu Aloe Vera</h3>
+                  <p>Vị chua tươi mát của trà hoa Hibiscus, cùng đá tuyết Yuzu (quýt Nhật) chua dịu sẽ trở nên hài hòa hơn nhờ topping Aloe Vera giòn ngọt, sẽ khiến bạn thích thú ngay lần chạm môi đầu tiên.</p>
+                  <button type="button" class="animate_btn" href="">Thử Ngay</button>
+               </div>
+            </div>
+            <!-- Gallery Item 4 -->
+            <div class="col-12 col-md-4 image ">
+               <div class="d-flex flex-column text-center  height100">
+                  <div>
+                     <img alt="Hi-Tea Đá Tuyết Yuzu Aloe Vera" src="/Guest/image/section4.webp" />
                   </div>
-                  <div class="col-md-4">
-                     <div class="card">
-                        <a href="/Guest/html/Story/story11.html">
-                           <img class="card-img-top" alt="Bootstrap Thumbnail First"
-                              src="/Guest/image/story-content11.png" />
-                        </a>
-                        <div class="card-block">
-                           <a href="/Guest/html/Story/story11.html" class="text-link fw-bolder ">CHAI FRESH LUÔN BÊN BẠN TRONG MỌI KHOẢNH KHẮC</a>
-                           <p class="card-text ">
-                              Với sự kết nối của The Coffee House, những thức trà và cà phê dạng...
-                           </p>
-                        </div>
-                     </div>
-                  </div>
+                  <h3>Hi-Tea Đá Tuyết Mận Muối Aloe Vera</h3>
+                  <p>“Have a mặn mà” và chua chua từ Mận muối xay cùng đá tuyết, hoà quyện với vị trà hoa Hibiscus chua dịu và chút ngọt thanh tao bởi topping Aloe Vera, Hi-Tea Đá Tuyết Mận Muối Aloe Vera là thức uống “must try” để đánh tan cơn khát mùa hè.</p>
+                  <button type="button" class="animate_btn" href="">Thử Ngay</button>
                </div>
             </div>
          </div>
       </div>
       <!-- Footer -->
-      <div class="footer">
-         <div class="row">
-            <div class="col-6 col-md-4 about">
-               <ul>
-                  <h4>Giới thiệu</h4>
-                  <li><a href="story.html">Về chúng tôi</a></li>
-                  <li><a href="home.html">Sản phẩm</a></li>
-                  <li><a href="home.html">Khuyến mãi</a></li>
-               </ul>
-            </div>
-            <div class="col-6 col-md-4 rules">
-               <ul>
-                  <h4>Điều khoản</h4>
-                  <li><a href="home.html">Điều khoản sử dụng</a></li>
-                  <li><a href="home.html">Quy tắc bảo mật</a></li>
-               </ul>
-            </div>
-            <div class="col-12 col-md-4 contact">
-               <div>
-                  <h4><i class="fa fa-phone"></i>Đặt hàng: 1800 6936</h4>
-               </div>
-               <div>
-                  <h4><i class='fas fa-map-marker-alt'></i>Liên hệ</h4>
-                  <p>Tầng 3-4 Hub Building 195/10E Điện Biên Phủ, P.15, Q.Bình Thạnh, TP.Hồ Chí Minh</p>
-               </div>
-            </div>
+    <div class="footer">
+      <div class="row">
+         <div class="col-6 col-md-4 about">
+            <ul>
+               <h4>Giới thiệu</h4>
+               <li><a href="/Guest/html/home.html">Về chúng tôi</a></li>
+               <li><a href="/Guest/html/home.html">Sản phẩm</a></li>
+               <li><a href="/Guest/html/home.html">Khuyến mãi</a></li>
+            </ul>
          </div>
+         <div class="col-6 col-md-4 rules">
+            <ul>
+               <h4>Điều khoản</h4>
+               <li><a href="/Guest/html/home.html">Điều khoản sử dụng</a></li>
+               <li><a href="/Guest/html/home.html">Quy tắc bảo mật</a></li>
+            </ul>
+         </div>
+         <div class="col-12 col-md-4 contact">
+          <div>
+            <h4><i class="fa fa-phone"></i>Đặt hàng: 1800 6936</h4>
+          </div>
+          <div>
+            <h4><i class='fas fa-map-marker-alt'></i>Liên hệ</h4>
+            <p>Tầng 3-4 Hub Building 195/10E Điện Biên Phủ, P.15, Q.Bình Thạnh, TP.Hồ Chí Minh</p>
+          </div>
+        </div>
       </div>
    </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-   integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script src="/Guest/js/main.js"></script>
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+<script src="/Guest/js/navbar.js"></script>
 
 </html>
