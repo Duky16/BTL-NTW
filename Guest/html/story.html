@@ -18,47 +18,41 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/Guest/css/story-style.css">
-    <link rel="stylesheet" href="/Guest/css/style.css">
+    
 </head>
 
 <body>
-    <!-- navbar -->
-    <header style="z-index: 1000; position: relative;">
-        <div>
-           <nav class="navbar navbar-expand-lg bg-light">
-              <div class="col-md-1"></div>
-              <a href="home.html" class="nav-branding fw-bolder">The Coffe house</a>
-
-              <ul class="nav-menu">
-
-                 <li class=" nav-item">
-                    <a href="coffee.html" class="nav-link fw-bold px-3">Cà phê </a>
-                 </li>
-                 <li class=" nav-item">
-                    <a href="tea.html" class="nav-link fw-bold px-3"> Trà</a>
-                 </li>
-                 <li class=" nav-item">
-                    <a href="snack.html" class="nav-link fw-bold px-3"> Đồ ăn vặt</a>
-                 </li>
-                 <li class="nav-item">
-                    <a href="story.html" class="nav-link fw-bold px-3 active">Chuyện nhà</a>
-                 </li>
-                 <li class="nav-item">
-                    <a href="Hi-tea.html" class="nav-link fw-bold px-3">Hi-tea Healthy</a>
-                 </li>
-                 <li class="nav-item">
-                    <a href="/Admin/html/login.html" class="nav-link fw-bold px-3">Đăng nhập</a>
-                 </li>
-              </ul>
-              <div class="hamburger">
-                 <span class="bar"> </span>
-                 <span class="bar"> </span>
-                 <span class="bar"> </span>
-              </div>
-           </nav>
-        </div>
-
-     </header>
+    <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar_link">
+      <a class="navbar_brand fw-bolder" href="/Guest/html/home.html">THE COFFEE HOUSE</a>
+    </div>
+     <div class="navbar_link navbar_link-toggle">
+       <i class="fas fa-bars"></i>
+     </div>
+   <nav class="navbar_items">
+      <div class="navbar_link">
+        <a class="nav-link" href="/Guest/html/coffee.html">Cà phê</a>
+      </div>
+      <div class="navbar_link">
+        <a class="nav-link" href="/Guest/html/tea.html">Trà</a>
+      </div>
+      <div class="navbar_link">
+        <a class="nav-link" href="/Guest/html/snack.html">Đồ ăn vặt</a>
+      </div>
+      <div class="navbar_link">
+        <a class="nav-link" href="/Guest/html/Hi-tea.html">Hi-Tea</a>
+      </div>
+      <div class="navbar_link">
+        <a class="nav-link active" href="/Guest/html/story.html">Chuyện nhà</a>
+      </div>
+    </nav>
+    <nav class="navbar_items navbar_items--right">
+      <div class="navbar_link">
+        <a class="nav-link" href="/Admin/html/login.html">Đăng nhập</a>
+      </div>
+    </nav>
+   </div>
     <div class="col-12">
         <h4 class="tittle1 text-center fw-bolder">Chuyện nhà</h4>
         <p class="title2 text-center">The Coffee House sẽ là nơi mọi người xích lại gần nhau, đề cao giá trị kết nối con người và sẻ chia thân tình bên những tách cà phê, ly trà đượm hương, truyền cảm hứng về lối sống hiện đại.</p>
@@ -100,7 +94,7 @@
                 </div>
             </div>
             <div class ="col-12 d-inline-flex p-3">
-                <a href="/Guest/html/Story/stor4.html"><img class = "content-img2" src="/Guest/image/story-content4.png"></a>
+                <a href="/Guest/html/Story/story4.html"><img class = "content-img2" src="/Guest/image/story-content4.png"></a>
                 <div class="col-md-8 px-3">
                     <a href="/Guest/html/Story/story4.html" class="text-link">BẬT MÍ NHIỆT ĐỘ LÝ TƯỞNG ĐỂ PHA CÀ PHÊ NGON, ĐẬM ĐÀ HƯƠNG VỊ</a>
                     <p class="content-date">07/03/2022</p>
@@ -160,9 +154,9 @@
         <div class="col-md-7">
             <div class="col-12 p-3 fs-5">Coffeeholic</div>
             <div class ="col-12 d-inline-flex p-3">
-                <a href="/Guest/html/Story/story9.htmll"><img class = "content-img2" src="/Guest/image/story-content9.png"></a>
+                <a href="/Guest/html/Story/story9.html"><img class = "content-img2" src="/Guest/image/story-content9.png"></a>
                 <div class="col-md-8 px-3">
-                    <a href="/Guest/html/Story/story9.htmll" class="text-link">LỄ TÌNH NHÂN, CÙNG CRUSH ĐI ĐÂU?</a>
+                    <a href="/Guest/html/Story/story9.html" class="text-link">LỄ TÌNH NHÂN, CÙNG CRUSH ĐI ĐÂU?</a>
                     <p class="content-date">14/02/2022</p>
                     <p class="tittle3">Tadaaaa, hết Tết thì Valentine đầy yêu thương lại đang đến rồi nè. Lễ tình...</p>
                 </div>
@@ -194,16 +188,16 @@
            <div class="col-6 col-md-4 about">
               <ul>
                  <h4>Giới thiệu</h4>
-                 <li><a href="story.html">Về chúng tôi</a></li>
-                 <li><a href="home.html">Sản phẩm</a></li>
-                 <li><a href="home.html">Khuyến mãi</a></li>
+                 <li><a href="/Guest/html/home.html">Về chúng tôi</a></li>
+                 <li><a href="/Guest/html/home.html">Sản phẩm</a></li>
+                 <li><a href="/Guest/html/home.html">Khuyến mãi</a></li>
               </ul>
            </div>
            <div class="col-6 col-md-4 rules">
               <ul>
                  <h4>Điều khoản</h4>
-                 <li><a href="home.html">Điều khoản sử dụng</a></li>
-                 <li><a href="home.html">Quy tắc bảo mật</a></li>
+                 <li><a href="/Guest/html/home.html">Điều khoản sử dụng</a></li>
+                 <li><a href="/Guest/html/home.html">Quy tắc bảo mật</a></li>
               </ul>
            </div>
            <div class="col-12 col-md-4 contact">
@@ -217,8 +211,7 @@
           </div>
         </div>
      </div>
-     <script src="/Guest/js/story.js"></script>
-     <script src="/Guest/js/main.js"></script>
 </body>
-
+<script src="/Guest/js/story.js"></script>
+<script src="/Guest/js/navbar.js"></script>
 </html>

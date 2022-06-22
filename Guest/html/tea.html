@@ -19,43 +19,36 @@
 </head>
 <body>
     <!-- Navbar -->
-    <header style="z-index: 1000; position: relative;">
-      <div>
-         <nav class="navbar navbar-expand-lg bg-light">
-            <div class="col-md-1"></div>
-            <a href="home.html" class="nav-branding fw-bolder">The Coffe house</a>
-
-            <ul class="nav-menu">
-
-               <li class=" nav-item">
-                  <a href="coffee.html" class="nav-link fw-bold px-3">Cà phê </a>
-               </li>
-               <li class=" nav-item">
-                  <a href="tea.html" class="nav-link fw-bold px-3 active"> Trà</a>
-               </li>
-               <li class=" nav-item">
-                  <a href="snack.html" class="nav-link fw-bold px-3"> Đồ ăn vặt</a>
-               </li>
-               <li class="nav-item">
-                  <a href="story.html" class="nav-link fw-bold px-3">Chuyện nhà</a>
-               </li>
-               <li class="nav-item">
-                  <a href="Hi-tea.html" class="nav-link fw-bold px-3">Hi-tea Healthy</a>
-               </li>
-               <li class="nav-item">
-                  <a href="/Admin/html/login.html" class="nav-link fw-bold px-3">Đăng nhập</a>
-               </li>
-            </ul>
-            <div class="hamburger">
-               <span class="bar"> </span>
-               <span class="bar"> </span>
-               <span class="bar"> </span>
-            </div>
-         </nav>
+  <div class="navbar">
+    <div class="navbar_link">
+      <a class="navbar_brand fw-bolder" href="/Guest/html/home.html">THE COFFEE HOUSE</a>
+    </div>
+     <div class="navbar_link navbar_link-toggle">
+       <i class="fas fa-bars"></i>
+     </div>
+   <nav class="navbar_items">
+      <div class="navbar_link">
+        <a class="nav-link" href="/Guest/html/coffee.html">Cà phê</a>
       </div>
-
-   </header>
-  
+      <div class="navbar_link">
+        <a class="nav-link active" href="/Guest/html/tea.html">Trà</a>
+      </div>
+      <div class="navbar_link">
+        <a class="nav-link" href="/Guest/html/snack.html">Đồ ăn vặt</a>
+      </div>
+      <div class="navbar_link">
+        <a class="nav-link" href="/Guest/html/Hi-tea.html">Hi-Tea</a>
+      </div>
+      <div class="navbar_link">
+        <a class="nav-link" href="/Guest/html/story.html">Chuyện nhà</a>
+      </div>
+    </nav>
+    <nav class="navbar_items navbar_items--right">
+      <div class="navbar_link">
+        <a class="nav-link" href="/Admin/html/login.html">Đăng nhập</a>
+      </div>
+    </nav>
+   </div>
     <!-- SLIDER -->
     <img src="/Guest/image/slide-tea.webp" class="d-block w-100" alt="slide">
 
@@ -70,7 +63,7 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/tea1.webp">
-            <a href="/Guest/html/products.html/giftsetTea.html" class="item-tittle">Giftset Trà Tearoma</a>
+            <a href="/Guest/html/products/giftsetTea.html" class="item-tittle">Giftset Trà Tearoma</a>
             <p>169.000 đ</p>
           </div>
         </div>
@@ -78,7 +71,7 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/tea2.webp">
-            <a href="/Guest/html/products.html/Tradaoloc.html" class="item-tittle">Trà Đào Túi Lọc Tearoma 20 x 2gr</a>
+            <a href="/Guest/html/products/Tradaoloc.html" class="item-tittle">Trà Đào Túi Lọc Tearoma 20 x 2gr</a>
             
             <p>28.000 đ</p>
           </div>
@@ -87,7 +80,7 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/tea3.webp">
-            <a href="/Guest/html/products.html/Tralailoc.html" class="item-tittle">Trà Lài Túi Lọc Tearoma 20 x 2gr</a>
+            <a href="/Guest/html/products/Tralailoc.html" class="item-tittle">Trà Lài Túi Lọc Tearoma 20 x 2gr</a>
             <p>28.000 đ</p>
           </div>
         </div>
@@ -95,7 +88,7 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/tea4.webp">
-            <a href="/Guest/html/products.html/olong.html" class="item-tittle">Trà  Ô long Túi Lọc Tearoma 20 x 2gr</a>
+            <a href="/Guest/html/products/olong.html" class="item-tittle">Trà  Ô long Túi Lọc Tearoma 20 x 2gr</a>
             <p>28.000 đ</p>
           </div>
         </div>
@@ -103,7 +96,7 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/tea5.webp">
-            <a href="/Guest/html/products.html/trasenloc.html" class="item-tittle"> Trà Sen Túi Lọc Tearoma 20 x 2gr</a>
+            <a href="/Guest/html/products/trasenloc.html" class="item-tittle"> Trà Sen Túi Lọc Tearoma 20 x 2gr</a>
             <p>28.000 đ</p>
           </div>
         </div>
@@ -111,7 +104,7 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/tea6.webp">
-            <a href="/Guest/html/products.html/Traxanhla.html" class="item-tittle"> Trà Xanh Lá Tearoma 100gr</a>
+            <a href="/Guest/html/products/Traxanhla.html" class="item-tittle"> Trà Xanh Lá Tearoma 100gr</a>
             <p>74.000 đ</p>
           </div>
         </div>
@@ -119,23 +112,18 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/tea7.webp">
-            <h6 class="item-tittle">Trà Sen Lá Tearoma 100gr</h6>
+            <a href="/Guest/html/products/Trasenla.html" class="item-tittle"> Trà Sen Lá Tearoma 100gr</a>
+            
             <p>79.000 đ</p>
           </div>
         </div>
+        
         <!-- Item 8 -->
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
-            <img class = "item-img" src="/Guest/image/tea8.webp">
-            <h6 class="item-tittle">Thùng 24 Lon Cà Phê Sữa Đá</h6>
-            <p>98.000 đ</p>
-          </div>
-        </div>
-        <!-- Item 9 -->
-        <div class ="col-6 col-md-3 image">
-          <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/tea9.webp">
-            <h6 class="item-tittle">Trà Lài Lá Tearoma 100gr</h6>
+            <a href="/Guest/html/products/Trasenla.html" class="item-tittle">Trà Lài Lá Tearoma 100gr</a>
+            
             <p>79.000 đ</p>
           </div>
         </div>
@@ -148,16 +136,16 @@
          <div class="col-6 col-md-4 about">
             <ul>
                <h4>Giới thiệu</h4>
-               <li><a href="story.html">Về chúng tôi</a></li>
-               <li><a href="home.html">Sản phẩm</a></li>
-               <li><a href="home.html">Khuyến mãi</a></li>
+               <li><a href="/Guest/html/home.html">Về chúng tôi</a></li>
+               <li><a href="/Guest/html/home.html">Sản phẩm</a></li>
+               <li><a href="/Guest/html/home.html">Khuyến mãi</a></li>
             </ul>
          </div>
          <div class="col-6 col-md-4 rules">
             <ul>
                <h4>Điều khoản</h4>
-               <li><a href="home.html">Điều khoản sử dụng</a></li>
-               <li><a href="home.html">Quy tắc bảo mật</a></li>
+               <li><a href="/Guest/html/home.html">Điều khoản sử dụng</a></li>
+               <li><a href="/Guest/html/home.html">Quy tắc bảo mật</a></li>
             </ul>
          </div>
          <div class="col-12 col-md-4 contact">
@@ -171,6 +159,6 @@
         </div>
       </div>
    </div>
-   <script src="/Guest/js/main.js"></script>
 </body>
+<script src="/Guest/js/navbar.js"></script>
 </html>

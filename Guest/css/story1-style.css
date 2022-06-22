@@ -1,24 +1,90 @@
 *{
+    padding: 0;
+    margin: 0;
+ }
+ 
+ body{
     font-family: 'SF Pro Text', sans-serif;
-}
-
-nav{
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.navbar{
+ }
+ 
+ .navbar {
+    background-color: #46ACC2;
+    display: flex;
+    padding: 0 9%;
+    line-height: 60px;
+    font-family: sans-serif;
+    color: white;
     overflow: hidden;
     position: sticky;
-    width: 100%;
     top: 0;
-}
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #00000026;
+  }
+  
+  .navbar_link {
+    margin-left: 20px;
+  }
+ 
+ .navbar_link a{
+    color: black;
+    font-weight: 500;
+ }
+ 
+  .navbar_brand{
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .navbar_items {
+    display: flex;
+  }
+ 
+  .navbar_items a:hover{
+    color: #ea8025;
+    transition: ease-in-out;
+  }
+ 
+  .active{
+    color: #ea8025 !important;
+    opacity: 90%;
+ }
+  
+  .navbar_items--right {
+    margin-left:auto;
+  }
+  
+  .navbar_link-toggle {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .navbar_items,
+    .navbar {
+      flex-direction: column;
+    }
+      
+  .navbar_items {
+      display:none;
+    }
+      
+  .navbar_items--right {
+      margin-left:0;
+    }
+      
+  .navbar_toggleshow {
+      display: flex;
+    }
+      
+  .navbar_link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+      color: black;
+      background: rgba(255, 255, 255, 0.8);
+     } 
+  }
 
-.navbar-brand{
-    padding-right: 30px;
-}
 .container{
     padding: 20px 150px 0;
 }

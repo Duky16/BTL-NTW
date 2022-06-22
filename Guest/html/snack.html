@@ -16,46 +16,40 @@
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 </head>
 <body>
     <!-- Navbar -->
-    <header style="z-index: 1000; position: relative;">
-      <div>
-         <nav class="navbar navbar-expand-lg bg-light">
-            <div class="col-md-1"></div>
-            <a href="home.html" class="nav-branding fw-bolder">The Coffe house</a>
-
-            <ul class="nav-menu">
-
-               <li class=" nav-item">
-                  <a href="coffee.html" class="nav-link fw-bold px-3">Cà phê </a>
-               </li>
-               <li class=" nav-item">
-                  <a href="tea.html" class="nav-link fw-bold px-3"> Trà</a>
-               </li>
-               <li class=" nav-item">
-                  <a href="snack.html" class="nav-link fw-bold px-3 active"> Đồ ăn vặt</a>
-               </li>
-               <li class="nav-item">
-                  <a href="story.html" class="nav-link fw-bold px-3">Chuyện nhà</a>
-               </li>
-               <li class="nav-item">
-                  <a href="Hi-tea.html" class="nav-link fw-bold px-3">Hi-tea Healthy</a>
-               </li>
-               <li class="nav-item">
-                  <a href="/Admin/html/login.html" class="nav-link fw-bold px-3">Đăng nhập</a>
-               </li>
-            </ul>
-            <div class="hamburger">
-               <span class="bar"> </span>
-               <span class="bar"> </span>
-               <span class="bar"> </span>
-            </div>
-         </nav>
+  <div class="navbar">
+    <div class="navbar_link">
+      <a class="navbar_brand fw-bolder" href="/Guest/html/home.html">THE COFFEE HOUSE</a>
+    </div>
+     <div class="navbar_link navbar_link-toggle">
+       <i class="fas fa-bars"></i>
+     </div>
+   <nav class="navbar_items">
+      <div class="navbar_link">
+        <a class="nav-link" href="/Guest/html/coffee.html">Cà phê</a>
       </div>
-
-   </header>
-  
+      <div class="navbar_link">
+        <a class="nav-link" href="/Guest/html/tea.html">Trà</a>
+      </div>
+      <div class="navbar_link">
+        <a class="nav-link active" href="/Guest/html/snack.html">Đồ ăn vặt</a>
+      </div>
+      <div class="navbar_link">
+        <a class="nav-link" href="/Guest/html/Hi-tea.html">Hi-Tea</a>
+      </div>
+      <div class="navbar_link">
+        <a class="nav-link" href="/Guest/html/story.html">Chuyện nhà</a>
+      </div>
+    </nav>
+    <nav class="navbar_items navbar_items--right">
+      <div class="navbar_link">
+        <a class="nav-link" href="/Admin/html/login.html">Đăng nhập</a>
+      </div>
+    </nav>
+   </div>
     <!-- SLIDER -->
     <img src="/Guest/image/slide-snack.webp" class="d-block w-100" alt="slide">
 
@@ -70,7 +64,8 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/snack1.webp">
-            <h6 class="item-tittle">Bánh Mì Que Pate</h6>
+            <a href="/Guest/html/products/snack1.html" class="item-tittle">Bánh Mì Que Pate</a>
+          
             <p>12.000 đ</p>
           </div>
         </div>
@@ -78,7 +73,8 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/snack2.webp">
-            <h6 class="item-tittle">Bánh Mì Que Pate Cay</h6>
+            <a href="/Guest/html/products/snack2.html" class="item-tittle">Bánh Mì Que Pate Cay</a>
+          
             <p>12.000 đ</p>
           </div>
         </div>
@@ -86,7 +82,8 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/snack3.webp">
-            <h6 class="item-tittle">Bánh Mì VN Thịt Nguội</h6>
+            <a href="/Guest/html/products/snack3.html" class="item-tittle">Bánh Mì VN Thịt Nguội</a>
+            
             <p>29.000 đ</p>
           </div>
         </div>
@@ -94,7 +91,8 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/snack4.webp">
-            <h6 class="item-tittle">Chà Bông Phô Mai</h6>
+            <a href="/Guest/html/products/snack4.html" class="item-tittle">Chà Bông Phô Mai</a>
+           
             <p>32.000 đ</p>
           </div>
         </div>
@@ -102,7 +100,8 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/snack5.webp">
-            <h6 class="item-tittle">Mochi Kem Chocolate</h6>
+            <a href="/Guest/html/products/snack5.html" class="item-tittle">Mochi Kem Chocolate</a>
+            
             <p>19.000 đ</p>
           </div>
         </div>
@@ -110,7 +109,8 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/snack6.webp">
-            <h6 class="item-tittle">Mochi Kem Matcha</h6>
+            <a href="/Guest/html/products/snack6.html" class="item-tittle">Mochi Kem Matcha</a>
+            
             <p>19.000 đ</p>
           </div>
         </div>
@@ -118,7 +118,8 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/snack7.webp">
-            <h6 class="item-tittle">Mochi Kem Việt Quất</h6>
+            <a href="/Guest/html/products/snack7.html" class="item-tittle">Mochi Kem Việt Quất</a>
+            
             <p>19.000 đ</p>
           </div>
         </div>
@@ -126,7 +127,8 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/snack8.webp">
-            <h6 class="item-tittle">Gà Xé Lá Chanh</h6>
+            <a href="/Guest/html/products/snack8.html" class="item-tittle">Gà Xé Lá Chanh</a>
+        
             <p>25.000 đ</p>
           </div>
         </div>
@@ -134,7 +136,8 @@
         <div class ="col-6 col-md-3 image">
           <div class="d-flex flex-column text-start height100">
             <img class = "item-img" src="/Guest/image/snack9.webp">
-            <h6 class="item-tittle">Mít Sấy</h6>
+            <a href="/Guest/html/products/snack9.html" class="item-tittle">Mít Sấy</a>
+           
             <p>20.000 đ</p>
           </div>
         </div>
@@ -147,16 +150,16 @@
          <div class="col-6 col-md-4 about">
             <ul>
                <h4>Giới thiệu</h4>
-               <li><a href="story.html">Về chúng tôi</a></li>
-               <li><a href="home.html">Sản phẩm</a></li>
-               <li><a href="home.html">Khuyến mãi</a></li>
+               <li><a href="/Guest/html/home.html">Về chúng tôi</a></li>
+               <li><a href="/Guest/html/home.html">Sản phẩm</a></li>
+               <li><a href="/Guest/html/home.html">Khuyến mãi</a></li>
             </ul>
          </div>
          <div class="col-6 col-md-4 rules">
             <ul>
                <h4>Điều khoản</h4>
-               <li><a href="home.html">Điều khoản sử dụng</a></li>
-               <li><a href="home.html">Quy tắc bảo mật</a></li>
+               <li><a href="/Guest/html/home.html">Điều khoản sử dụng</a></li>
+               <li><a href="/Guest/html/home.html">Quy tắc bảo mật</a></li>
             </ul>
          </div>
          <div class="col-12 col-md-4 contact">
@@ -170,6 +173,6 @@
         </div>
       </div>
    </div>
-   <script src="/Guest/js/main.js"></script>
 </body>
+<script src="/Guest/js/navbar.js"></script>
 </html>
