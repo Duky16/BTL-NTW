@@ -109,7 +109,10 @@ a {
      opacity: 75%;
      cursor: pointer;
  }
-
+ .price{
+   color: orange;
+   font-size:xx-large;
+}
  .old-price{
      text-decoration-line: line-through;
  }
