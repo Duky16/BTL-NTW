@@ -27,30 +27,43 @@
 
 <body>
     <div class="App">
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="col-md-1"></div>
-            <a class="navbar-brand fw-bolder" href="/Guest/html/home.html">THE COFFEE HOUSE</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold px-3" href="/Guest/html/coffee.html">Cà phê</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold px-3" href="/Guest/html/tea.html">Trà</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold px-3" href="/Guest/html/snack.html">Đồ ăn vặt</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold px-3" href="/Guest/html/story.html">Chuyện nhà</a>
-                    </li>
-                </ul>
+        <!-- nav -->
+        <header style="z-index: 1000; position: relative;">
+            <div>
+               <nav class="navbar navbar-expand-lg bg-light">
+                  <div class="col-md-1"></div>
+                  <a href="/Guest/html/home.html" class="nav-branding fw-bolder">The Coffe house</a>
+    
+                  <ul class="nav-menu">
+    
+                     <li class=" nav-item">
+                        <a href="/Guest/html/coffee.html" class="nav-link fw-bold px-3">Cà phê </a>
+                     </li>
+                     <li class=" nav-item">
+                        <a href="/Guest/html/tea.html" class="nav-link fw-bold px-3"> Trà</a>
+                     </li>
+                     <li class=" nav-item">
+                        <a href="/Guest/html/snack.html" class="nav-link fw-bold px-3"> Đồ ăn vặt</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="/Guest/html/story.html" class="nav-link fw-bold px-3 active">Chuyện nhà</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="/Guest/html/Hi-tea.html" class="nav-link fw-bold px-3">Hi-tea Healthy</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="/Admin/html/login.html" class="nav-link fw-bold px-3">Đăng nhập</a>
+                     </li>
+                  </ul>
+                  <div class="hamburger">
+                     <span class="bar"> </span>
+                     <span class="bar"> </span>
+                     <span class="bar"> </span>
+                  </div>
+               </nav>
             </div>
-        </nav>
+    
+         </header>
 
         <div class="Product">
             <nav class="navbar navbar-expand-lg ">
@@ -128,26 +141,10 @@
                     <div class="col-md 12">
                         <div class="option_size">
                             <h4>Kích thước</h4>
-                            <!--
-                            <span data-option-value="Nho" class>
-                                <svg with="12" height="16" fill="none"></svg>
-                            </span>
-                            <span data-option="Vua -6-000d" class="btn">
-                                <svg with="12" height="16" fill="none"></svg>
-                            </span>
-                            <span></span>
-                        -->
+                         
                         </div>
                     </div>
-                    <!--
-                    <div class="col-md 12">
-                            <button><a class="button" id="Nhỏ">Nhỏ</a></button>
-                            <button><a class="button" id="Vừa">Vừa + 6.000đ</a></button>
-                            <button><a class="button" id="Lớn">Lớn + 13.000đ</a></button>
-                           <br />
-                           
-                        </div>
-                    -->
+                  
                     <div class="col-md 12">
                         <button class="btn" name="button" type="button"">Nhỏ</button>
                         <button class=" btn" name=" button" type="button"">Vừa + 6.000đ</button>
@@ -162,15 +159,7 @@
                         <button class=" btn" name=" button" type="button"">Đào miếng + 10.000đ</button>
                         <button class=" btn" name=" button" type="button"">Nha đam + 10.000đ</button>
                     </div>
-                <!--
-                <div class=" col-md 5 ">
-                    <button name=" Ship" type="button">
-
-                                <button style='font-size:24px'>Mua tại cửa hàng <i class='fas fa-store'></i></button>
-                                <button style='font-size:24px'>Mua mang đi <i class='fas fa-mobile-alt'></i></button>
-
-                    </div>
-                    -->
+                
                 </div>
                 <div class="container-fluid">
                     <div class="row">
@@ -263,6 +252,7 @@
             </div>
         </div>
     </div>
+    <script src="/Guest/js/main.js"></script>
 </body>
 
 </html>
