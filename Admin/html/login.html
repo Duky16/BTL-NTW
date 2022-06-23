@@ -14,17 +14,21 @@
             <h1 class="form-heading">Đăng nhập</h1>
             <div class="form-group">
                 <i class="fa-solid fa-user"></i>
-                <input type="text" class="form-input" placeholder="Tên đăng nhập">
+                <input type="text" class="form-input" placeholder="Tên đăng nhập" id="username">
             </div>
             <div class="form-group">
                 <i class="fa-solid fa-key"></i>
-                <input type="password" class="form-input" placeholder="Mật khẩu">
+                <input type="password" class="form-input" placeholder="Mật khẩu" id="password">
                 <div id="eye">
                     <i class="fa-solid fa-eye"></i>
                 </div>
             </div>
-            <input type="button" value="Đăng nhập" class="form-button" onclick="Redirect()">
+            
+            <div>
+                <input type="button" value="Đăng nhập" class="form-button" onclick="login()">
             <input type="button" value="Quay lại trang chủ" class="form-button" onclick="Redirect2()">
+            </div>
+            
         </form>
     </div>
 </body>

@@ -16,3 +16,21 @@ function Redirect(){
 function Redirect2(){
     window.location.href="/Guest/html/home.html";
 }
+
+
+function login(e) {
+  event.preventDefault();
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+  localStorage.setItem('username', 'admin')
+  localStorage.setItem('password', '123456')
+
+   if (
+    username == localStorage.getItem('username') &&
+    password == localStorage.getItem('password')
+  ) {
+    window.location.href = "Admin.html";
+  } else {
+    alert("dang nhap that bai");
+  }
+}
